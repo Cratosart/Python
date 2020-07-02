@@ -1,0 +1,10 @@
+a = int(input("Введите сколько вы пробежали в первый день"))
+b = int(input("Сколько вы хотите пробежать?"))
+result_d = 1
+result_k = a
+while result_k < b:
+    a = a*1.1
+    result_d +=1
+    result_k = result_k + a
+print(f"Вы достигните желаемое на {result_d} день")
+
