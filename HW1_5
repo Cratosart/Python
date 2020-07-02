@@ -1,0 +1,12 @@
+prib = int(input("Введите выручку"))
+mines = int(input("Введите издержки"))
+
+if prib > mines:
+    print("Мы работаем в прибыль")
+    v = prib - mines
+    print(f"сумма прибыли {v}")
+    chel = int(input("Введите численность сотрудников"))
+    i = v / chel
+    print(f" Прибыль на одного сотрудника {i}")
+if mines > prib:
+    print("Мы работаем в убыток!!")
